@@ -16,7 +16,7 @@ let object2 = {}
 
 首先，肯定是不一样的。至于为什么，看一下原理就明白了。
 
-我把MDN上的`ployfill1拿来，我们看看是如何实现的。
+我把MDN上的`ployfill`拿来，我们看看是如何实现的。
 
 ```js
 Object.create = function (proto, propertiesObject) {
